@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "server": "https://deno.land/std/http/server.ts",
+        "hono/": "https://deno.land/x/hono/",
+        "dom": "https://deno.land/x/deno_dom/deno-dom-wasm.ts",
+        "path": "https://deno.land/std/path/mod.ts"
+    }
+}

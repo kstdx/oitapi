@@ -6,7 +6,7 @@ import * as API from './src/api.js'
 
 const app = new Hono()
 
-/*
+// ブラウザにキャッシュをする
 app.get(
     '*',
     cache({
@@ -15,7 +15,6 @@ app.get(
         wait: true
     })
 )
-*/
 
 app.get('/:school', API.viewAll)
 app.get('/:school/:category/:path', API.view)
